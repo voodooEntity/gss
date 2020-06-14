@@ -4,7 +4,7 @@
 GSS serve's static files from a given directory(recursivly) via http on a defined port. This tool is meant for temporary usage to serve files for development or file movement purposes. It is not meant to replace a webserver.
 ### Install:
 ##### Build it yourself
-The current mikefile supports systems that include /usr/bin in their PATH. If your system doesn't include that you either add it or compile it manually with "go build -o threader" and copy it into your supported PATH. 
+The current makefile supports systems that include /usr/bin in their PATH. If your system doesn't include that you either add it or compile it manually with "go build -o gss" and copy it into your supported PATH. 
 ```sh 
 $ git clone https://github.com/voodooEntity/gss 
 $ cd gss 
