@@ -13,7 +13,6 @@ type Args struct {
 	Dir     string
 }
 
-
 var args Args
 
 func main() {
@@ -43,7 +42,7 @@ func parseArgs() {
 
 	// thread amount to be used
 	var port int
-	flag.IntVar(&port, "port", 8998, "Port to serve the static files on");
+	flag.IntVar(&port, "port", 8091, "Port to serve the static files on");
 
 	// parse the flags
 	flag.Parse()
@@ -62,6 +61,6 @@ func printHelpText() {
 		"  For examples check https://github.com/voodooEntity/gss readme.\n\n" +
 		"  Args: \n" +
 		"    -port INT           | Specifys the port number used to server the files, default 8091\n" +
-		"    -dir STRING         | Absolute path to directory to server the files from\n";
+		"    -dir STRING         | Path to directory to server the files from\n";
 	fmt.Println(helpText)
 }
