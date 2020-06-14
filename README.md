@@ -36,6 +36,6 @@ $ make && make build && make install
 
 ##### Why did you build gss?
 I just thought there could be a tool with just simplistic input doing the job, and since golang is very good at simple http actions i created it. It's meant to be easy and simple.
-##### What are the future plans of threader?
+##### What are the future plans of gss?
 I have no speficic future plans for the tool. The base funcionality is given and i gonne focus on making sure this tool always stays stable and working. Im still open to suggestions on how to improve the tool, but i can't promise anything .) just feel free to comment.
 
